@@ -13,7 +13,7 @@ class AddItemController {
       amount,
     });
 
-    return res.json(order);
+    res.json(order);
   }
 }
 
